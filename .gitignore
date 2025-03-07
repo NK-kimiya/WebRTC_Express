@@ -1,0 +1,25 @@
+# node_modules は不要
+node_modules/
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数や秘密情報
+.env
+
+# ビルド成果物があれば
+dist/
+build/
+
+# エディタやIDE関連
+.vscode/
+.idea/
+
+# テストのカバレッジ
+coverage/
